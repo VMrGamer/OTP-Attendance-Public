@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="teamarv.otpattendancesystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity
+            android:name=".UserActivity"
+            android:label="@string/title_activity_user"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Cognito.SignUpConfirm"
+            android:label="@string/title_activity_sign_up_confirm"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AboutApp"
+            android:label="@string/title_activity_about_app"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Cognito.ChangePasswordActivity"
+            android:label="@string/title_activity_change_password"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Cognito.RegisterUser"
+            android:label="@string/title_activity_register_user"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Cognito.ForgotPasswordActivity"
+            android:label="@string/title_activity_forgot_password"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Cognito.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Cognito.VerifyActivity"
+            android:label="@string/title_activity_verify"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Cognito.AddAttributeActivity"
+            android:label="@string/title_activity_add_attribute"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Cognito.NewPassword"
+            android:label="@string/title_activity_new_password"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Cognito.DeviceSettings"
+            android:label="@string/title_activity_device_settings"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
